@@ -4,13 +4,20 @@
 
 ## ChangeLog
 
-- 2021-01-04 nabetaka 作成・リリース
+- 2021-01-04 nabetaka READMEの作成・リリース
+- 2021-01-05 nabetaka READMEの更新: 「Description」，「Usage」の追記
 
 
 
 ## Overview
 
 Webカメラの映像のフレームを一定間隔で保存するプログラム．
+
+
+
+## Description
+
+実行ディレクトリ内に画像保存用ディレクトリ「images/yyyymmdd/」を作成する．
 
 
 
