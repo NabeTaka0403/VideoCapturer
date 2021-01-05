@@ -31,7 +31,7 @@ def main():
 
     save_interval = 0   # フレームの保存間隔（1〜60[秒]の整数のうち60の約数）
     while True:
-        input_num = input('フレームの保存間隔（1〜60[秒]の整数のうち60の約数）を入力: ')
+        input_num = input('フレームの保存間隔を入力（1〜60[秒]の整数のうち60の約数）: ')
         if input_num in ['1', '2', '3', '4', '5', '6', '10', '12', '15', '20', '30', '60']:
             save_interval = int(input_num)
             break
